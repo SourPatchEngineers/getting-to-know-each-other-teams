@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+<head>
+    <title>Hello!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #27408c;
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .main-info {
+            background: #e7e7e7;
+            padding: 5px;
+            text-align: center;
+        }
+        .main-info h1 {
+            margin: 0;
+        }
+        .members, .portfolio{
+            background: #e7e7e7;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<!-- For implementing your own areas, read ALL comments!! [All parenthesis refer to fill ins]-->
+<body>
+    <div class="container">
+        
+        <header class="main-info">
+            <h1>Meet The Sour Patch Engineers</h1>
+            <img src="team" alt="Scrum Team" usemap="#team-map" class="team">
+            <map name='team-map'>
+            <!-- <area shape="rect" coords="(0,0,0,0)" href="member()" alt="Member ()"> -->
+            </map>
+        </header>
+
+        <section class="members">
+            <h2>Team Members</h2>
+            <!-- <li><a href="(personal website.com)">(Full Name)</a>></li> -->
+            <ul>
+                <li><a href="https://jensen24.github.io/me/">Nicolas Delgado</a></li>
+            </ul>
+        </section>
+           
+        <section class="portfolio">
+            <h2>Team Portfolio</h2>
+            <ul>
+                <li><a href="https://wonderful-mud-05f947310.1.azurestaticapps.net/">ECaMS Billboard</a></li>
+            </ul>
+        </section>
+
+        <footer>
+           <p> Last Updated: <span id="lastModified"></span></p>
+        </footer>
+    </div>
+    <script>
+        const lastModifiedDate = new Date(document.lastModified)
+        const options = { year: 'numeric', month: 'long', day: 'numeric'}
+        const formattedDate = lastModifiedDate.toLocaleDateString('en-us', options)
+        document.getElementById('lastModified').textContent = formattedDate
+    </script>
+</body>
+</html>

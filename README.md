@@ -1,1 +1,2 @@
-# getting-to-know-each-other-teams
+# Getting-to-know-each-other-teams Assignment 
+### W3 School was used for guidance on utilizing image maps and the link can be found <a href="https://www.w3schools.com/html/html_images_imagemap.asp">here</a>
