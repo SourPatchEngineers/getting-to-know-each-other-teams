@@ -1,0 +1,14 @@
+group picture is to be 1000 x 900 (LxW) full body shots
+
+use their intro site pictures for their little user cards
+
+Wiktoria site: https://wiktoriacg.github.io/me/
+Josh site: https://jvac2332.github.io/me2/
+nick site: https://jensen24.github.io/me/
+kac site: https://girimuszek.github.io/me/
+marco site: https://calm-wave-06a84f61e.1.azurestaticapps.net/
+arti site: 
+
+color: #FDFFFC;
+background-color: #EDECE6;
+background-color: #abb8b8;
